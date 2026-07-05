@@ -79,11 +79,11 @@ body::before {
 
 .h1 {
   font-family: 'Syne', sans-serif;
-  font-size: clamp(2.2rem, 5vw, 3.8rem);
-  font-weight: 800;
-  line-height: 1.08;
-  letter-spacing: -0.02em;
-  margin-bottom: 14px;
+  font-size: clamp(1.8rem, 3.6vw, 2.6rem);
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: -0.018em;
+  margin-bottom: 12px;
 }
 
 .sub {
@@ -111,7 +111,7 @@ body::before {
 }
 
 section {
-  padding: 96px 0;
+  padding: 80px 0;
 }
 
 .nav-shell {
@@ -286,15 +286,16 @@ nav {
 
 .hero-title {
   font-family: 'Syne', sans-serif;
-  font-size: clamp(3.8rem, 9vw, 6.5rem);
-  font-weight: 800;
-  line-height: 0.94;
-  letter-spacing: -0.025em;
-  margin-bottom: 8px;
+  font-size: clamp(2.7rem, 5.8vw, 4.2rem);
+  font-weight: 700;
+  line-height: 1.04;
+  letter-spacing: -0.022em;
+  margin-bottom: 10px;
+  max-width: 720px;
 }
 
 .hero-title .accent {
-  display: block;
+  display: inline-block;
   background: linear-gradient(130deg, var(--flame) 0%, var(--gold) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -302,10 +303,11 @@ nav {
 }
 
 .hero-tagline {
-  font-size: 1.15rem;
+  font-size: 1rem;
   color: var(--dim);
-  margin: 18px 0 36px;
-  max-width: 460px;
+  margin: 14px 0 28px;
+  max-width: 500px;
+  line-height: 1.7;
 }
 
 .hero-tagline strong {
@@ -444,8 +446,8 @@ nav {
 .node-secondary:nth-of-type(5) { bottom: 16%; right: 20%; }
 
 .stacked-section {
-  padding-top: 70px;
-  padding-bottom: 60px;
+  padding-top: 56px;
+  padding-bottom: 48px;
 }
 
 .feature-grid {
